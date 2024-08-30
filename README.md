@@ -1,10 +1,12 @@
 Autogen Projects
 This repository contains projects built using the Autogen Framework.
 
-Coding Agent
+# Coding Agent:
+
 The Coding Agent allows you to develop backend Python modules with the assistance of an AI agent powered by LLMs like ChatGPT and Gemini. You can specify a "work_dir" folder name, and the agent will automatically create the directory and save the generated code files in it.
 
-How It Works
+#How It Works:
+
 User Input: The agent comprehends your input.
 Code Generation: It writes the code in the specified directory.
 Execution & Debugging: The agent executes the code using PowerShell command-line tools. If any errors occur, the agent will debug, rewrite, and re-execute the code until it runs successfully on the local system.
